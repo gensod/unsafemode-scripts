@@ -9,7 +9,6 @@ async function startFlashLoop() {
     await sleep(1000);
     bsod.style.background = "#ffffff";
     bsod.style.color = "#000000";
-    document.getElementById("qr").src = "https://raw.githack.com/gensod/unsafemode-scripts/main/src/blackqr.png";
     await sleep(1000);
   }
 }
